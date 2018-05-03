@@ -10,12 +10,9 @@
     <nav class="menu">
         <ul>
             <li><a href="#">Home</a></li>
-            <li class="sub-menu">
-            <a href="#">Technology</a>
-
-            <ul id="abc" class="a">
-            </ul>
-
+            <li class="sub-menu"><a href="#">Technology</a>
+              <ul id="abc">
+              </ul>
             </li>
             <li><a href="#">Work</a></li>
             <li><a href="#">Contact</a></li>
@@ -24,7 +21,7 @@
     <script src="jquery-1.12.4.js"></script>
     <script>
         $(document).ready(function () {
-            $("#abc").append("<li>Dot Net</li><li>Java</li><li>Javascript</li><li>HTML</li>");
+            $("#abc").append("<li><a href=#>JavaScript</a></li><li><a href=#>AngularJS</a></li><li><a href=#>HTML</a></li><li><a href=#>JQuery</a></li>");
         });
     </script>
 </body>
